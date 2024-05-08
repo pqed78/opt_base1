@@ -6,4 +6,5 @@
 2. Run: docker run -it --rm --runtime nvidia --name op_base pqed78/opt_base0
 
 # Pip list (FYI)
-- requirement.txt 
+- requirement.txt
+- OpenCV 4.9.0 installed here is not built with gstreamer.
