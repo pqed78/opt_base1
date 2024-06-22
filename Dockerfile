@@ -10,6 +10,7 @@ RUN pip install virtualenv &&\
     virtualenv --system-site-packages env
 
 RUN echo 'source env/bin/activate' >> ~/.bashrc &&\
+    echo 'source /data/optimus_ws1/install/local_setup.bash' >> ~/.bashrc  &&\
     source ~/.bashrc 
 
 RUN chmod +x install_vision.sh &&\
