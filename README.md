@@ -7,3 +7,7 @@
 
 # Pip list (FYI)
 - OpenCV 4.9.0 installed here is not built with gstreamer.
+
+# Virtual environment error (--system-site-packages)
+- python shebang error: added the following in setup.py
+- [build_scripts] executable=/usr/bin/env python  
