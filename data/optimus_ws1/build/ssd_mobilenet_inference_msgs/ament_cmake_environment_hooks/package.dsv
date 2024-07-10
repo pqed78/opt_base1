@@ -1,0 +1,4 @@
+source;share/ssd_mobilenet_inference_msgs/local_setup.bash
+source;share/ssd_mobilenet_inference_msgs/local_setup.dsv
+source;share/ssd_mobilenet_inference_msgs/local_setup.sh
+source;share/ssd_mobilenet_inference_msgs/local_setup.zsh

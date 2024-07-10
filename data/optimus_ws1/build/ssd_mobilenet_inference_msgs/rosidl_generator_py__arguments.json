@@ -1,0 +1,24 @@
+{
+  "package_name": "ssd_mobilenet_inference_msgs",
+  "output_dir": "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_generator_py/ssd_mobilenet_inference_msgs",
+  "template_dir": "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_adapter/ssd_mobilenet_inference_msgs:msg/InferenceResult.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/install/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_adapter/ssd_mobilenet_inference_msgs/msg/InferenceResult.idl"
+  ]
+}

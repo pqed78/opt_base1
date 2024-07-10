@@ -1,0 +1,218 @@
+[0.535s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.535s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e7d4df0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e7d4df0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8e7e03a0>)
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.587s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/data/optimus_ws1'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/optimus_vision0) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/optimus_vision0' with type 'ros.ament_python' and name 'optimus_vision0'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_mobilenet_inference_msgs) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssd_mobilenet_inference_msgs' with type 'ros.ament_cmake' and name 'ssd_mobilenet_inference_msgs'
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_args' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_target' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_clean_cache' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_clean_first' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'cmake_force_configure' from command line to 'False'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'ament_cmake_args' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'catkin_cmake_args' from command line to 'None'
+[0.689s] Level 5:colcon.colcon_core.verb:set package 'optimus_vision0' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.689s] DEBUG:colcon.colcon_core.verb:Building package 'optimus_vision0' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/optimus_ws1/build/optimus_vision0', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/optimus_ws1/install/optimus_vision0', 'merge_install': False, 'path': '/data/optimus_ws1/src/optimus_vision0', 'symlink_install': False, 'test_result_base': None}
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ssd_mobilenet_inference_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'ssd_mobilenet_inference_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs', 'merge_install': False, 'path': '/data/optimus_ws1/src/ssd_mobilenet_inference_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.694s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.704s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/data/optimus_ws1/src/optimus_vision0' with build type 'ament_python'
+[0.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('optimus_vision0', 'ament_prefix_path')
+[0.715s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/ament_prefix_path.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/ament_prefix_path.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/ament_prefix_path.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/data/optimus_ws1/src/ssd_mobilenet_inference_msgs' with build type 'ament_cmake'
+[0.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/data/optimus_ws1/src/ssd_mobilenet_inference_msgs'
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/data/optimus_ws1/src/optimus_vision0'
+[1.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs': CMAKE_PREFIX_PATH=/data/optimus_ws1/install/ssd_mobilenet_inference_msgs:/data/optimus_ws1/install/optimus_vision0:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/local/bin/cmake --build /data/optimus_ws1/build/ssd_mobilenet_inference_msgs -- -j8 -l8
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs' returned '0': CMAKE_PREFIX_PATH=/data/optimus_ws1/install/ssd_mobilenet_inference_msgs:/data/optimus_ws1/install/optimus_vision0:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/local/bin/cmake --build /data/optimus_ws1/build/ssd_mobilenet_inference_msgs -- -j8 -l8
+[2.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/optimus_ws1/src/optimus_vision0': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/data/optimus_ws1/build/optimus_vision0/prefix_override:/data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/optimus_vision0 build --build-base /data/optimus_ws1/build/optimus_vision0/build install --record /data/optimus_ws1/build/optimus_vision0/install.log --single-version-externally-managed
+[2.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs': CMAKE_PREFIX_PATH=/data/optimus_ws1/install/ssd_mobilenet_inference_msgs:/data/optimus_ws1/install/optimus_vision0:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/local/bin/cmake --install /data/optimus_ws1/build/ssd_mobilenet_inference_msgs
+[2.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssd_mobilenet_inference_msgs)
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs' returned '0': CMAKE_PREFIX_PATH=/data/optimus_ws1/install/ssd_mobilenet_inference_msgs:/data/optimus_ws1/install/optimus_vision0:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/local/bin/cmake --install /data/optimus_ws1/build/ssd_mobilenet_inference_msgs
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs' for CMake module files
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs' for CMake config files
+[2.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'cmake_prefix_path')
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.sh'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib'
+[2.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'ld_library_path_lib')
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/pkgconfig/ssd_mobilenet_inference_msgs.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages'
+[2.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'pythonpath')
+[2.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.ps1'
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.dsv'
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.sh'
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/bin'
+[2.391s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.dsv'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.sh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.zsh'
+[2.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/colcon-core/packages/ssd_mobilenet_inference_msgs)
+[2.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssd_mobilenet_inference_msgs)
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs' for CMake module files
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs' for CMake config files
+[2.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'cmake_prefix_path')
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.ps1'
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.dsv'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/cmake_prefix_path.sh'
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib'
+[2.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'ld_library_path_lib')
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.dsv'
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/ld_library_path_lib.sh'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/bin'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/pkgconfig/ssd_mobilenet_inference_msgs.pc'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages'
+[2.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_mobilenet_inference_msgs', 'pythonpath')
+[2.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.ps1'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.dsv'
+[2.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/hook/pythonpath.sh'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/bin'
+[2.585s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.sh'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.bash'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.zsh'
+[2.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/colcon-core/packages/ssd_mobilenet_inference_msgs)
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0' for CMake module files
+[2.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/data/optimus_ws1/src/optimus_vision0' returned '0': PS1=(env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/data/optimus_ws1/build/optimus_vision0/prefix_override:/data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/optimus_vision0 build --build-base /data/optimus_ws1/build/optimus_vision0/build install --record /data/optimus_ws1/build/optimus_vision0/install.log --single-version-externally-managed
+[2.601s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0' for CMake config files
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0/lib'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0/bin'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0/lib/pkgconfig/optimus_vision0.pc'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages'
+[2.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('optimus_vision0', 'pythonpath')
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/pythonpath.ps1'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/pythonpath.dsv'
+[2.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/hook/pythonpath.sh'
+[2.610s] Level 1:colcon.colcon_core.environment:checking '/data/optimus_ws1/install/optimus_vision0/bin'
+[2.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(optimus_vision0)
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/package.ps1'
+[2.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/package.dsv'
+[2.617s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/package.sh'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/package.bash'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/package.zsh'
+[2.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/data/optimus_ws1/install/optimus_vision0/share/colcon-core/packages/optimus_vision0)
+[2.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.620s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.640s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.641s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/optimus_ws1/install/local_setup.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/optimus_ws1/install/_local_setup_util_ps1.py'
+[2.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/optimus_ws1/install/setup.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/optimus_ws1/install/local_setup.sh'
+[2.656s] INFO:colcon.colcon_core.shell:Creating prefix util module '/data/optimus_ws1/install/_local_setup_util_sh.py'
+[2.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/optimus_ws1/install/setup.sh'
+[2.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/optimus_ws1/install/local_setup.bash'
+[2.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/optimus_ws1/install/setup.bash'
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/data/optimus_ws1/install/local_setup.zsh'
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/data/optimus_ws1/install/setup.zsh'

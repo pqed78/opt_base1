@@ -1,0 +1,17 @@
+{
+  "package_name": "ssd_mobilenet_inference_msgs",
+  "output_dir": "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_typesupport_cpp/ssd_mobilenet_inference_msgs",
+  "template_dir": "/opt/ros/humble/install/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_adapter/ssd_mobilenet_inference_msgs:msg/InferenceResult.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/install/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/install/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/data/optimus_ws1/build/ssd_mobilenet_inference_msgs/rosidl_adapter/ssd_mobilenet_inference_msgs/msg/InferenceResult.idl"
+  ]
+}

@@ -1,0 +1,413 @@
+[0.000000] (-) TimerEvent: {}
+[0.001110] (optimus_vision0) JobQueued: {'identifier': 'optimus_vision0', 'dependencies': OrderedDict()}
+[0.001448] (ssd_mobilenet_inference_msgs) JobQueued: {'identifier': 'ssd_mobilenet_inference_msgs', 'dependencies': OrderedDict()}
+[0.001505] (optimus_vision0) JobStarted: {'identifier': 'optimus_vision0'}
+[0.044928] (ssd_mobilenet_inference_msgs) JobStarted: {'identifier': 'ssd_mobilenet_inference_msgs'}
+[0.099398] (-) TimerEvent: {}
+[0.200152] (-) TimerEvent: {}
+[0.300772] (-) TimerEvent: {}
+[0.401328] (-) TimerEvent: {}
+[0.500544] (ssd_mobilenet_inference_msgs) JobProgress: {'identifier': 'ssd_mobilenet_inference_msgs', 'progress': 'cmake'}
+[0.501165] (ssd_mobilenet_inference_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/data/optimus_ws1/src/ssd_mobilenet_inference_msgs', '-DCMAKE_INSTALL_PREFIX=/data/optimus_ws1/install/ssd_mobilenet_inference_msgs'], 'cwd': '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'optimus-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/data'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '(env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$'), ('COLCON_PREFIX_PATH', '/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/env/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('VIRTUAL_ENV_PROMPT', 'env'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VIRTUAL_ENV', '/env'), ('PWD', '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.503197] (-) TimerEvent: {}
+[0.603678] (-) TimerEvent: {}
+[0.704395] (-) TimerEvent: {}
+[0.724893] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.808529] (-) TimerEvent: {}
+[0.861335] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.884978] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.908669] (-) TimerEvent: {}
+[0.989898] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.008812] (-) TimerEvent: {}
+[1.012979] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.013547] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.014696] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.020343] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.108959] (-) TimerEvent: {}
+[1.139296] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.159773] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.160401] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.161188] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.172759] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[1.209123] (-) TimerEvent: {}
+[1.285051] (optimus_vision0) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/optimus_vision0', 'build', '--build-base', '/data/optimus_ws1/build/optimus_vision0/build', 'install', '--record', '/data/optimus_ws1/build/optimus_vision0/install.log', '--single-version-externally-managed'], 'cwd': '/data/optimus_ws1/src/optimus_vision0', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'optimus-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/data', 'ROS_PYTHON_VERSION': '3', 'PS1': '(env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'COLCON_PREFIX_PATH': '/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/env/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': 'env', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'VIRTUAL_ENV': '/env', 'PWD': '/data/optimus_ws1/build/optimus_vision0', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/data/optimus_ws1/build/optimus_vision0/prefix_override:/data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[1.309299] (-) TimerEvent: {}
+[1.409997] (-) TimerEvent: {}
+[1.510647] (-) TimerEvent: {}
+[1.611205] (-) TimerEvent: {}
+[1.647381] (optimus_vision0) StdoutLine: {'line': b'running egg_info\n'}
+[1.648301] (optimus_vision0) StdoutLine: {'line': b'creating ../../build/optimus_vision0/optimus_vision0.egg-info\n'}
+[1.648714] (optimus_vision0) StdoutLine: {'line': b'writing ../../build/optimus_vision0/optimus_vision0.egg-info/PKG-INFO\n'}
+[1.649248] (optimus_vision0) StdoutLine: {'line': b'writing dependency_links to ../../build/optimus_vision0/optimus_vision0.egg-info/dependency_links.txt\n'}
+[1.649713] (optimus_vision0) StdoutLine: {'line': b'writing entry points to ../../build/optimus_vision0/optimus_vision0.egg-info/entry_points.txt\n'}
+[1.649910] (optimus_vision0) StdoutLine: {'line': b'writing requirements to ../../build/optimus_vision0/optimus_vision0.egg-info/requires.txt\n'}
+[1.650130] (optimus_vision0) StdoutLine: {'line': b'writing top-level names to ../../build/optimus_vision0/optimus_vision0.egg-info/top_level.txt\n'}
+[1.650256] (optimus_vision0) StdoutLine: {'line': b"writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'\n"}
+[1.701096] (optimus_vision0) StderrLine: {'line': b"package init file 'optimus_vision0/util/__init__.py' not found (or not a regular file)\n"}
+[1.702171] (optimus_vision0) StdoutLine: {'line': b"reading manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'\n"}
+[1.703868] (optimus_vision0) StdoutLine: {'line': b"writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'\n"}
+[1.704520] (optimus_vision0) StdoutLine: {'line': b'running build\n'}
+[1.705030] (optimus_vision0) StdoutLine: {'line': b'running build_py\n'}
+[1.705309] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/build/optimus_vision0/build\n'}
+[1.705445] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/build/optimus_vision0/build/lib\n'}
+[1.705595] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.705703] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/streaming_node copy.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.705880] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/streaming_node.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.705988] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/streaming_node_original.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.706137] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/publication_node.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.706302] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/publication_node copy.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.706477] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/__init__.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0\n'}
+[1.706828] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.707018] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/camera_data.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.707212] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/move_block_api.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.707413] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/robot_navigation_sequence.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.707633] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/temp.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.707808] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/test.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.708077] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/packMasg_client.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.708411] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/temp0.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.708660] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/packMasg_client2.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.708928] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/packMasg_client3.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.709139] (optimus_vision0) StdoutLine: {'line': b'copying optimus_vision0/util/robot_navigation_sequence_execution.py -> /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util\n'}
+[1.709567] (optimus_vision0) StdoutLine: {'line': b'running install\n'}
+[1.711478] (-) TimerEvent: {}
+[1.711919] (optimus_vision0) StdoutLine: {'line': b'running install_lib\n'}
+[1.713992] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.714346] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/streaming_node copy.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.714598] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/streaming_node.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.714799] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/streaming_node_original.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.715075] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/publication_node.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.715202] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/publication_node copy.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.715383] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.715622] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/camera_data.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.715804] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/move_block_api.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.715977] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/robot_navigation_sequence.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.716157] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/temp.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.716325] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/test.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.716519] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.716672] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/temp0.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.716845] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client2.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.717012] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client3.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.717185] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/util/robot_navigation_sequence_execution.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util\n'}
+[1.717471] (optimus_vision0) StdoutLine: {'line': b'copying /data/optimus_ws1/build/optimus_vision0/build/lib/optimus_vision0/__init__.py -> /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0\n'}
+[1.718661] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/streaming_node copy.py to streaming_node copy.cpython-38.pyc\n'}
+[1.723784] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/streaming_node.py to streaming_node.cpython-38.pyc\n'}
+[1.726662] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/streaming_node_original.py to streaming_node_original.cpython-38.pyc\n'}
+[1.729944] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/publication_node.py to publication_node.cpython-38.pyc\n'}
+[1.731020] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/publication_node copy.py to publication_node copy.cpython-38.pyc\n'}
+[1.731944] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/camera_data.py to camera_data.cpython-38.pyc\n'}
+[1.732995] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/move_block_api.py to move_block_api.cpython-38.pyc\n'}
+[1.733684] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/robot_navigation_sequence.py to robot_navigation_sequence.cpython-38.pyc\n'}
+[1.734290] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/temp.py to temp.cpython-38.pyc\n'}
+[1.734641] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/test.py to test.cpython-38.pyc\n'}
+[1.735016] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/packMasg_client.py to packMasg_client.cpython-38.pyc\n'}
+[1.735883] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/temp0.py to temp0.cpython-38.pyc\n'}
+[1.736224] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/packMasg_client2.py to packMasg_client2.cpython-38.pyc\n'}
+[1.737203] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/packMasg_client3.py to packMasg_client3.cpython-38.pyc\n'}
+[1.738000] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/util/robot_navigation_sequence_execution.py to robot_navigation_sequence_execution.cpython-38.pyc\n'}
+[1.739016] (optimus_vision0) StdoutLine: {'line': b'byte-compiling /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0/__init__.py to __init__.cpython-38.pyc\n'}
+[1.739311] (optimus_vision0) StdoutLine: {'line': b'running install_data\n'}
+[1.740612] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/share/ament_index\n'}
+[1.740897] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/share/ament_index/resource_index\n'}
+[1.741046] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/share/ament_index/resource_index/packages\n'}
+[1.741154] (optimus_vision0) StdoutLine: {'line': b'copying resource/optimus_vision0 -> /data/optimus_ws1/install/optimus_vision0/share/ament_index/resource_index/packages\n'}
+[1.741324] (optimus_vision0) StdoutLine: {'line': b'copying package.xml -> /data/optimus_ws1/install/optimus_vision0/share/optimus_vision0\n'}
+[1.741498] (optimus_vision0) StdoutLine: {'line': b'creating /data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/launch\n'}
+[1.741652] (optimus_vision0) StdoutLine: {'line': b'copying launch/nn_camera.launch.py -> /data/optimus_ws1/install/optimus_vision0/share/optimus_vision0/launch\n'}
+[1.741763] (optimus_vision0) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.745022] (optimus_vision0) StdoutLine: {'line': b'Copying ../../build/optimus_vision0/optimus_vision0.egg-info to /data/optimus_ws1/install/optimus_vision0/lib/python3.8/site-packages/optimus_vision0-0.0.0-py3.8.egg-info\n'}
+[1.746652] (optimus_vision0) StdoutLine: {'line': b'running install_scripts\n'}
+[1.779345] (optimus_vision0) StdoutLine: {'line': b'Installing publication_node script to /data/optimus_ws1/install/optimus_vision0/lib/optimus_vision0\n'}
+[1.779832] (optimus_vision0) StdoutLine: {'line': b'Installing streaming_node script to /data/optimus_ws1/install/optimus_vision0/lib/optimus_vision0\n'}
+[1.780743] (optimus_vision0) StdoutLine: {'line': b"writing list of installed files to '/data/optimus_ws1/build/optimus_vision0/install.log'\n"}
+[1.811638] (-) TimerEvent: {}
+[1.846314] (optimus_vision0) CommandEnded: {'returncode': 0}
+[1.883408] (optimus_vision0) JobEnded: {'identifier': 'optimus_vision0', 'rc': 0}
+[1.911807] (-) TimerEvent: {}
+[2.012422] (-) TimerEvent: {}
+[2.113026] (-) TimerEvent: {}
+[2.213635] (-) TimerEvent: {}
+[2.314244] (-) TimerEvent: {}
+[2.414849] (-) TimerEvent: {}
+[2.515438] (-) TimerEvent: {}
+[2.616025] (-) TimerEvent: {}
+[2.716649] (-) TimerEvent: {}
+[2.817253] (-) TimerEvent: {}
+[2.917853] (-) TimerEvent: {}
+[3.018504] (-) TimerEvent: {}
+[3.119121] (-) TimerEvent: {}
+[3.219759] (-) TimerEvent: {}
+[3.320504] (-) TimerEvent: {}
+[3.421111] (-) TimerEvent: {}
+[3.521710] (-) TimerEvent: {}
+[3.622273] (-) TimerEvent: {}
+[3.722863] (-) TimerEvent: {}
+[3.823482] (-) TimerEvent: {}
+[3.924124] (-) TimerEvent: {}
+[4.024775] (-) TimerEvent: {}
+[4.090410] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found Python3: /env/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[4.124935] (-) TimerEvent: {}
+[4.225767] (-) TimerEvent: {}
+[4.264064] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/install/share/std_msgs/cmake)\n'}
+[4.325981] (-) TimerEvent: {}
+[4.329617] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[4.339483] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[4.357167] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[4.387469] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.426208] (-) TimerEvent: {}
+[4.426965] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.526425] (-) TimerEvent: {}
+[4.538790] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[4.626564] (-) TimerEvent: {}
+[4.727135] (-) TimerEvent: {}
+[4.827803] (-) TimerEvent: {}
+[4.876919] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[4.927921] (-) TimerEvent: {}
+[5.028533] (-) TimerEvent: {}
+[5.129160] (-) TimerEvent: {}
+[5.180082] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.229303] (-) TimerEvent: {}
+[5.290569] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.329497] (-) TimerEvent: {}
+[5.336127] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /env/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[5.339767] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[5.392922] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.393510] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /env/bin/python3\n'}
+[5.393698] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.393864] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[5.429610] (-) TimerEvent: {}
+[5.435255] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.512512] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[5.529715] (-) TimerEvent: {}
+[5.545841] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.547879] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.553763] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.606106] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.611112] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Build files have been written to: /data/optimus_ws1/build/ssd_mobilenet_inference_msgs\n'}
+[5.629867] (-) TimerEvent: {}
+[5.633615] (ssd_mobilenet_inference_msgs) CommandEnded: {'returncode': 0}
+[5.634671] (ssd_mobilenet_inference_msgs) JobProgress: {'identifier': 'ssd_mobilenet_inference_msgs', 'progress': 'build'}
+[5.635842] (ssd_mobilenet_inference_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs', '--', '-j8', '-l8'], 'cwd': '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'optimus-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/data'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '(env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$'), ('COLCON_PREFIX_PATH', '/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/env/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('VIRTUAL_ENV_PROMPT', 'env'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VIRTUAL_ENV', '/env'), ('PWD', '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[5.711716] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.720172] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.724995] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_ssd_mobilenet_inference_msgs\n'}
+[5.729985] (-) TimerEvent: {}
+[5.830538] (-) TimerEvent: {}
+[5.931082] (-) TimerEvent: {}
+[6.031645] (-) TimerEvent: {}
+[6.079338] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[  6%] Built target ssd_mobilenet_inference_msgs__cpp\n'}
+[6.088336] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.092514] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.092978] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/ssd_mobilenet_inference_msgs/msg/detail/inference_result__functions.c.o\x1b[0m\n'}
+[6.093638] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.133611] (-) TimerEvent: {}
+[6.148490] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.151096] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'creating ssd_mobilenet_inference_msgs.egg-info\n'}
+[6.190268] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'writing ssd_mobilenet_inference_msgs.egg-info/PKG-INFO\n'}
+[6.191053] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'writing dependency_links to ssd_mobilenet_inference_msgs.egg-info/dependency_links.txt\n'}
+[6.191733] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'writing top-level names to ssd_mobilenet_inference_msgs.egg-info/top_level.txt\n'}
+[6.192298] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"writing manifest file 'ssd_mobilenet_inference_msgs.egg-info/SOURCES.txt'\n"}
+[6.233763] (-) TimerEvent: {}
+[6.246039] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libssd_mobilenet_inference_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.283929] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 22%] Built target ssd_mobilenet_inference_msgs__rosidl_generator_c\n'}
+[6.293258] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.295664] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.296093] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.320219] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"reading manifest file 'ssd_mobilenet_inference_msgs.egg-info/SOURCES.txt'\n"}
+[6.321756] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"writing manifest file 'ssd_mobilenet_inference_msgs.egg-info/SOURCES.txt'\n"}
+[6.333920] (-) TimerEvent: {}
+[6.405128] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_ssd_mobilenet_inference_msgs_egg\n'}
+[6.434092] (-) TimerEvent: {}
+[6.457282] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ssd_mobilenet_inference_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[6.494434] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support.cpp.o\x1b[0m\n'}
+[6.495071] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ssd_mobilenet_inference_msgs/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o\x1b[0m\n'}
+[6.534240] (-) TimerEvent: {}
+[6.636046] (-) TimerEvent: {}
+[6.642239] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ssd_mobilenet_inference_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[6.667115] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support.c.o\x1b[0m\n'}
+[6.695180] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.700647] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support_c.cpp.o\x1b[0m\n'}
+[6.736248] (-) TimerEvent: {}
+[6.738194] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.740814] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 58%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_c\n'}
+[6.774248] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 58%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c\n'}
+[6.836474] (-) TimerEvent: {}
+[6.937519] (-) TimerEvent: {}
+[7.013030] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.037691] (-) TimerEvent: {}
+[7.056122] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 61%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_cpp\n'}
+[7.137884] (-) TimerEvent: {}
+[7.238586] (-) TimerEvent: {}
+[7.288093] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.293291] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.338769] (-) TimerEvent: {}
+[7.380474] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.392152] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 70%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.398241] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 70%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.438891] (-) TimerEvent: {}
+[7.479283] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 70%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.494622] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 70%] Built target ssd_mobilenet_inference_msgs\n'}
+[7.511646] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.539041] (-) TimerEvent: {}
+[7.639661] (-) TimerEvent: {}
+[7.740319] (-) TimerEvent: {}
+[7.841135] (-) TimerEvent: {}
+[7.916143] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 74%] Built target ssd_mobilenet_inference_msgs__py\n'}
+[7.932013] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/ssd_mobilenet_inference_msgs/msg/_inference_result_s.c.o\x1b[0m\n'}
+[7.941299] (-) TimerEvent: {}
+[8.042083] (-) TimerEvent: {}
+[8.092186] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ssd_mobilenet_inference_msgs/libssd_mobilenet_inference_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.132656] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 80%] Built target ssd_mobilenet_inference_msgs__rosidl_generator_py\n'}
+[8.142272] (-) TimerEvent: {}
+[8.149857] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.150592] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.150906] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.242443] (-) TimerEvent: {}
+[8.297352] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.298157] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.312429] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.337624] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[100%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_c__pyext\n'}
+[8.338203] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[100%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.342493] (-) TimerEvent: {}
+[8.351290] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'[100%] Built target ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.371873] (ssd_mobilenet_inference_msgs) CommandEnded: {'returncode': 0}
+[8.442685] (-) TimerEvent: {}
+[8.507763] (ssd_mobilenet_inference_msgs) JobProgress: {'identifier': 'ssd_mobilenet_inference_msgs', 'progress': 'install'}
+[8.542878] (-) TimerEvent: {}
+[8.567424] (ssd_mobilenet_inference_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs'], 'cwd': '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'optimus-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/data'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '(env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$'), ('COLCON_PREFIX_PATH', '/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/env/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('VIRTUAL_ENV_PROMPT', 'env'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VIRTUAL_ENV', '/env'), ('PWD', '/data/optimus_ws1/build/ssd_mobilenet_inference_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[8.621082] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.621616] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ament_index/resource_index/rosidl_interfaces/ssd_mobilenet_inference_msgs\n'}
+[8.621862] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.622078] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.622234] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.622375] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.622530] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__functions.h\n'}
+[8.622663] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__struct.h\n'}
+[8.622771] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__functions.c\n'}
+[8.622892] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support.h\n'}
+[8.623033] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/inference_result.h\n'}
+[8.623283] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/library_path.sh\n'}
+[8.623511] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/library_path.dsv\n'}
+[8.623834] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_generator_c.so\n'}
+[8.624353] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_generator_c.so" to ""\n'}
+[8.624602] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.624725] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.624910] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.625024] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.625160] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[8.625264] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.625568] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.625730] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.625860] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.626002] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/inference_result.hpp\n'}
+[8.626143] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.626269] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__builder.hpp\n'}
+[8.626416] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__struct.hpp\n'}
+[8.626515] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__traits.hpp\n'}
+[8.626682] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.626781] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.626913] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.627013] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.627133] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.627244] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/dds_fastrtps\n'}
+[8.627343] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.627795] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.627968] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.628118] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.628218] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.628342] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support.c\n'}
+[8.628497] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[8.628611] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.628757] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.629122] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.629248] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_c.so\n'}
+[8.631869] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.632342] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs\n'}
+[8.632564] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg\n'}
+[8.632700] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Up-to-date: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail\n'}
+[8.632808] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__type_support.cpp\n'}
+[8.632942] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/include/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.633081] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.633185] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.633334] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_cpp.so\n'}
+[8.633461] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.633558] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/pythonpath.sh\n'}
+[8.633703] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/pythonpath.dsv\n'}
+[8.633828] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs-0.0.0-py3.8.egg-info\n'}
+[8.633937] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs-0.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[8.634063] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs-0.0.0-py3.8.egg-info/top_level.txt\n'}
+[8.634200] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs-0.0.0-py3.8.egg-info/PKG-INFO\n'}
+[8.634300] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs-0.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[8.634423] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs\n'}
+[8.634545] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.634664] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/libssd_mobilenet_inference_msgs__rosidl_generator_py.so\n'}
+[8.634764] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.634895] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.635021] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.635120] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/_ssd_mobilenet_inference_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.635213] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.635305] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg\n'}
+[8.635395] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg/_inference_result.py\n'}
+[8.635484] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg/_inference_result_s.c\n'}
+[8.635574] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg/__init__.py\n'}
+[8.635685] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/__init__.py\n'}
+[8.642916] (-) TimerEvent: {}
+[8.690476] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"Listing '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs'...\n"}
+[8.690964] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"Compiling '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/__init__.py'...\n"}
+[8.691190] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"Listing '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg'...\n"}
+[8.691361] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"Compiling '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg/__init__.py'...\n"}
+[8.691526] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b"Compiling '/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/msg/_inference_result.py'...\n"}
+[8.699997] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.700470] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.700877] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.701253] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.701605] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[8.701905] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/python3.8/site-packages/ssd_mobilenet_inference_msgs/ssd_mobilenet_inference_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[8.702198] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_generator_py.so\n'}
+[8.702571] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Set runtime path of "/data/optimus_ws1/install/ssd_mobilenet_inference_msgs/lib/libssd_mobilenet_inference_msgs__rosidl_generator_py.so" to ""\n'}
+[8.702971] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/msg/InferenceResult.idl\n'}
+[8.703273] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/msg/InferenceResult.msg\n'}
+[8.703577] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ament_index/resource_index/package_run_dependencies/ssd_mobilenet_inference_msgs\n'}
+[8.703882] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ament_index/resource_index/parent_prefix_path/ssd_mobilenet_inference_msgs\n'}
+[8.704231] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/ament_prefix_path.sh\n'}
+[8.704558] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/ament_prefix_path.dsv\n'}
+[8.704897] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/path.sh\n'}
+[8.705230] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/environment/path.dsv\n'}
+[8.705517] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/local_setup.bash\n'}
+[8.705813] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/local_setup.sh\n'}
+[8.706106] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/local_setup.zsh\n'}
+[8.706401] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/local_setup.dsv\n'}
+[8.706736] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.dsv\n'}
+[8.707043] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ament_index/resource_index/packages/ssd_mobilenet_inference_msgs\n'}
+[8.707343] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_generator_cExport.cmake\n'}
+[8.707684] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.707983] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.708261] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.708682] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.708982] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.709340] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.709664] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.710014] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.710365] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.710702] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.711054] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.711394] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.711698] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.711987] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.712219] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.712482] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/export_ssd_mobilenet_inference_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.712751] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.712981] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.713207] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.713428] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.713649] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.713914] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.714140] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.714363] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgsConfig.cmake\n'}
+[8.714583] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/cmake/ssd_mobilenet_inference_msgsConfig-version.cmake\n'}
+[8.714833] (ssd_mobilenet_inference_msgs) StdoutLine: {'line': b'-- Installing: /data/optimus_ws1/install/ssd_mobilenet_inference_msgs/share/ssd_mobilenet_inference_msgs/package.xml\n'}
+[8.723338] (ssd_mobilenet_inference_msgs) CommandEnded: {'returncode': 0}
+[8.748113] (-) TimerEvent: {}
+[8.849224] (-) TimerEvent: {}
+[8.949898] (-) TimerEvent: {}
+[8.977975] (ssd_mobilenet_inference_msgs) JobEnded: {'identifier': 'ssd_mobilenet_inference_msgs', 'rc': 0}
+[8.979547] (-) EventReactorShutdown: {}
