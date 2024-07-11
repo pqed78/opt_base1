@@ -117,21 +117,21 @@ spatialCalcConfigInQueue = device.getInputQueue("spatialCalcConfig")
 
 # Set the model of network. Below is original model, and use *.engine model to use tensorRT,
 # #so that increase the speed of inference significantly while minimizing performance degradation
-model = YOLO("yolov8n.pt")
+# model = YOLO("yolov8n.pt")
 
 # In case of using tensorrt for jetson to reduce the inference time
 # Export the model to TensorRT format
-model.export(
-    format="engine",
-    dynamic=True,  
-    batch=8,  
-    workspace=4,  
-    int8=True,
-    data="coco.yaml",  
-)
+# model.export(
+#     format="engine",
+#     dynamic=True,  
+#     batch=8,  
+#     workspace=4,  
+#     int8=True,
+#     data="coco.yaml",  
+# )
 
 # Load the exported TensorRT INT8 model
-model = YOLO("yolov8n.engine", task="detect")
+model = YOLO("yolov8s.engine", task="detect")
 
 # object classes
 classNames = ["Person"]
@@ -192,7 +192,7 @@ class NNCamera_Publisher(Node):
         img=videoIn.getCvFrame()   #Convert the video images from color to CV readable arrays.
         brightness_color=np.array(img).sum()
         
-        results = model(img, stream=True)
+        results = model(img, stream=True, verbose=False)
 
         leftIn = left.get()
         imgl=leftIn.getCvFrame() # Convert the video iamges from the left monochromatic sensor to CV readable arrays.
