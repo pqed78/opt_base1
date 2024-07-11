@@ -1,4 +1,0 @@
-[console_scripts]
-publication_node = optimus_vision0.publication_node:main
-streaming_node = optimus_vision0.streaming_node:main
-
