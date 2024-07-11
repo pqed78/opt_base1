@@ -1,0 +1,8 @@
+setup.py
+ssd_mobilenet_inference_msgs/__init__.py
+ssd_mobilenet_inference_msgs.egg-info/PKG-INFO
+ssd_mobilenet_inference_msgs.egg-info/SOURCES.txt
+ssd_mobilenet_inference_msgs.egg-info/dependency_links.txt
+ssd_mobilenet_inference_msgs.egg-info/top_level.txt
+ssd_mobilenet_inference_msgs/msg/__init__.py
+ssd_mobilenet_inference_msgs/msg/_inference_result.py

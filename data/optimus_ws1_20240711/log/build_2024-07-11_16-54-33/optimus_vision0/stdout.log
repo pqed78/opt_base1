@@ -1,0 +1,73 @@
+running egg_info
+creating ../../build/optimus_vision0/optimus_vision0.egg-info
+writing ../../build/optimus_vision0/optimus_vision0.egg-info/PKG-INFO
+writing dependency_links to ../../build/optimus_vision0/optimus_vision0.egg-info/dependency_links.txt
+writing entry points to ../../build/optimus_vision0/optimus_vision0.egg-info/entry_points.txt
+writing requirements to ../../build/optimus_vision0/optimus_vision0.egg-info/requires.txt
+writing top-level names to ../../build/optimus_vision0/optimus_vision0.egg-info/top_level.txt
+writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+reading manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+copying optimus_vision0/streaming_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+copying optimus_vision0/__init__.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+copying optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/temp.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/test.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/move_block_api.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/camera_data.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/packMasg_client3.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/robot_navigation_sequence.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/robot_navigation_sequence_execution.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/temp0.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/packMasg_client2.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+copying optimus_vision0/util/packMasg_client.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util
+running install
+running install_lib
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/streaming_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/__init__.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/temp.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/test.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/move_block_api.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/camera_data.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client3.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/robot_navigation_sequence.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/robot_navigation_sequence_execution.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/temp0.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client2.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/util/packMasg_client.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/streaming_node.py to streaming_node.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/publication_node.py to publication_node.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/temp.py to temp.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/test.py to test.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/move_block_api.py to move_block_api.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/camera_data.py to camera_data.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/packMasg_client3.py to packMasg_client3.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/robot_navigation_sequence.py to robot_navigation_sequence.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/robot_navigation_sequence_execution.py to robot_navigation_sequence_execution.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/temp0.py to temp0.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/packMasg_client2.py to packMasg_client2.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/util/packMasg_client.py to packMasg_client.cpython-310.pyc
+running install_data
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/ament_index
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/ament_index/resource_index
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/ament_index/resource_index/packages
+copying resource/optimus_vision0 -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/ament_index/resource_index/packages
+copying package.xml -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/optimus_vision0
+creating /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/optimus_vision0/launch
+copying launch/nn_camera.launch.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/share/optimus_vision0/launch
+running install_egg_info
+Copying ../../build/optimus_vision0/optimus_vision0.egg-info to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publication_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+Installing streaming_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+writing list of installed files to '/home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/install.log'

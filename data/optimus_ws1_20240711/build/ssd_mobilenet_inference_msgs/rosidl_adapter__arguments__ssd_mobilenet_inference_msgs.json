@@ -1,0 +1,6 @@
+{
+  "package_name": "ssd_mobilenet_inference_msgs",
+  "non_idl_tuples": [
+    "/home/optimus/virtual/optimus/optimus_ws1_20240711/src/ssd_mobilenet_inference_msgs:msg/InferenceResult.msg"
+  ]
+}

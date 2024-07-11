@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/optimus_vision0/optimus_vision0.egg-info/PKG-INFO
+writing dependency_links to ../../build/optimus_vision0/optimus_vision0.egg-info/dependency_links.txt
+writing entry points to ../../build/optimus_vision0/optimus_vision0.egg-info/entry_points.txt
+writing requirements to ../../build/optimus_vision0/optimus_vision0.egg-info/requires.txt
+writing top-level names to ../../build/optimus_vision0/optimus_vision0.egg-info/top_level.txt
+reading manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+running build
+running build_py
+copying optimus_vision0/streaming_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+copying optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+running install
+running install_lib
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/streaming_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/streaming_node.py to streaming_node.cpython-310.pyc
+byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/publication_node.py to publication_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/optimus_vision0/optimus_vision0.egg-info to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publication_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+Installing streaming_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+writing list of installed files to '/home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/install.log'

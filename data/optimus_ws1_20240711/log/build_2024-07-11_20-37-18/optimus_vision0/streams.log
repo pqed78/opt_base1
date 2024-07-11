@@ -1,0 +1,26 @@
+[0.379s] Invoking command in '/home/optimus/virtual/optimus/optimus_ws1_20240711/src/optimus_vision0': PYTHONPATH=/home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/prefix_override:/home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/optimus_vision0 build --build-base /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build install --record /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/install.log --single-version-externally-managed install_data
+[0.540s] running egg_info
+[0.541s] writing ../../build/optimus_vision0/optimus_vision0.egg-info/PKG-INFO
+[0.541s] writing dependency_links to ../../build/optimus_vision0/optimus_vision0.egg-info/dependency_links.txt
+[0.542s] writing entry points to ../../build/optimus_vision0/optimus_vision0.egg-info/entry_points.txt
+[0.542s] writing requirements to ../../build/optimus_vision0/optimus_vision0.egg-info/requires.txt
+[0.542s] writing top-level names to ../../build/optimus_vision0/optimus_vision0.egg-info/top_level.txt
+[0.544s] package init file 'optimus_vision0/util/__init__.py' not found (or not a regular file)
+[0.544s] reading manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+[0.546s] writing manifest file '../../build/optimus_vision0/optimus_vision0.egg-info/SOURCES.txt'
+[0.546s] running build
+[0.546s] running build_py
+[0.546s] copying optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0
+[0.547s] running install
+[0.548s] running install_lib
+[0.549s] copying /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build/lib/optimus_vision0/publication_node.py -> /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0
+[0.550s] byte-compiling /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0/publication_node.py to publication_node.cpython-310.pyc
+[0.551s] running install_data
+[0.552s] running install_egg_info
+[0.554s] removing '/home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/optimus_vision0/optimus_vision0.egg-info to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages/optimus_vision0-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.575s] Installing publication_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+[0.575s] Installing streaming_node script to /home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/optimus_vision0
+[0.575s] writing list of installed files to '/home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/install.log'
+[0.592s] Invoked command in '/home/optimus/virtual/optimus/optimus_ws1_20240711/src/optimus_vision0' returned '0': PYTHONPATH=/home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/prefix_override:/home/optimus/virtual/optimus/optimus_ws1_20240711/install/optimus_vision0/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/optimus_vision0 build --build-base /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/build install --record /home/optimus/virtual/optimus/optimus_ws1_20240711/build/optimus_vision0/install.log --single-version-externally-managed install_data
